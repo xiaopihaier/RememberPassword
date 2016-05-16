@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\android\\RememberPassword\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_interface.xml",
+        "source": "E:\\android\\RememberPassword\\app\\src\\main\\res\\menu\\main_interface.xml"
+    },
+    {
+        "merged": "E:\\android\\RememberPassword\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_interface_drawer.xml",
+        "source": "E:\\android\\RememberPassword\\app\\src\\main\\res\\menu\\activity_main_interface_drawer.xml"
+    }
+]
