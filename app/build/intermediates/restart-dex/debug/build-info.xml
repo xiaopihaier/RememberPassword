@@ -4,7 +4,7 @@
     api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="32852896241191" >
+    timestamp="3551509621743" >
 
     <task
         name="javac"
@@ -19,10 +19,12 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="E:\android\RememberPassword\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
-
+    <build timestamp="3464856302148" >
+        <artifact
+            location="E:\android\RememberPassword\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build timestamp="3551509621743" />
     <build timestamp="32852896241191" >
         <artifact
             location="E:\android\RememberPassword\app\build\outputs\apk\app-debug.apk"

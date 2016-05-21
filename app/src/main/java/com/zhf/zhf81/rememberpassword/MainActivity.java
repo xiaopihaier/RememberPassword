@@ -11,6 +11,10 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+
 public class MainActivity extends AppCompatActivity {
     private Button Login;//登陆按钮
     private EditText InputUsername; //用户名输入框
@@ -40,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
         Login.setOnClickListener(new View.OnClickListener() {//实现一个Onclick方法
             @Override
             public void onClick(View view) {
-                String Username = InputUsername.getText().toString().trim();
-                String Password = InputPassword.getText().toString().trim();
+                String Username = InputUsername.getText().toString();
+                String Password = InputPassword.getText().toString();
                 editor = pref.edit();
                 editor.putBoolean("Remember_Username", true);
                 editor.putString("Username", Username);

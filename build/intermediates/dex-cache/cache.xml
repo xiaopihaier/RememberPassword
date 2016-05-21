@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="E:\android\RememberPassword\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec5630f926b1b8c3150d5c6adf91cf5c0dd1c1cf">
+        <dex dex="E:\android\RememberPassword\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4a7492cb57607d07a6d06189727dcc2687f0abae\classes.dex" />
+    </item>
+
+</items>
